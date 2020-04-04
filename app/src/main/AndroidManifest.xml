@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".EditSchedule"></activity>
+        <activity android:name=".AlarmActivity"></activity>
         <receiver android:name=".ReminderBroadcast">
         </receiver>
     </application>

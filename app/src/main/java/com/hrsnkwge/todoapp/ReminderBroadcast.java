@@ -50,5 +50,12 @@ public class ReminderBroadcast extends BroadcastReceiver {
         }
         NotificationManager notificationManager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(1, notification);
+
+        /*
+        Intent alarmIntent = new Intent();
+        alarmIntent.setClassName(context.getPackageName(),AlarmActivity.class.getName());
+        alarmIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(alarmIntent);
+         */
     }
 }
